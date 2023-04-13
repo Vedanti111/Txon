@@ -1,0 +1,156 @@
+:root {
+    --bright-orange: #e38d0b;
+    --gray: #323030;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+/* navigation bar */
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 70px;
+    width: 120px;
+    padding-top: 20px;
+}
+
+.topnav {
+    padding-left: 850px;
+    background-color: #ffffff;
+}
+
+.topnav a {
+    color: #000000;
+    text-align: center;
+    padding: 20px 35px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    color: var(--bright-orange);
+}
+
+button {
+    user-select: none;
+}
+
+.btn-cta {
+    background-color: var(--bright-orange);
+    border: 2px solid var(--bright-orange);
+    color: var(--white);
+    padding: 10px 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-cta:hover {
+    background-color: transparent;
+    color: var(--bright-orange);
+    padding: 10px 40px;
+}
+
+/* body */
+p {
+    line-height: 1.8;
+}
+
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.smartphone {
+    background-color: #000000;
+    padding: 40px;
+    color: #ffffff;
+}
+
+.showcase {
+    padding: 10px 70px 70px;
+    text-align: center;
+}
+
+.btn-showcase {
+    background-color: var(--gray);
+    border: 2px solid var(--gray);
+    color: var(--white);
+    padding: 10px 20px;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn-showcase:hover {
+    background-color: white;
+    color: var(--gray);
+    padding: 10px 40px;
+}
+
+.showcase h3 {
+    color: var(--bright-orange);
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: x-large;
+    margin: auto;
+}
+
+.showcase h1 {
+    font-size: xx-large;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.column {
+    flex: 30%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 10px;
+    vertical-align: middle;
+}
+
+.featured {
+    text-align: left;
+    padding-top: 30px;
+}
+
+h4 {
+    padding: 26px 26px 0;
+    font-weight: bold;
+}
+
+/* footer */
+.footer1 {
+    background-color: black;
+    color: #ffffff;
+    padding: 1% 6%;
+    text-align: center;
+}
+
+.container-fluid {
+    word-spacing: 20px;
+}
